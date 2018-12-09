@@ -16,7 +16,8 @@ class Human:
             print(f'{self._name}, голосует за Президента')
     def relaxing(self):
         print(f'{self._name}, отдыхает')
-    def diyng(self, n):
+    def diyng(self, years):
+        if years == n-1:
             print(f'{self._name}, откинулся, ему было {n}')
 n = int(input('Введите возраст: '))
 class Life:
