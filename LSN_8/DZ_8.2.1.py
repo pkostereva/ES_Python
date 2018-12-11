@@ -28,4 +28,4 @@ for i in range(len(b)):
         op1=stack.pop()
         stack.append(float(op1)/(float(op2)))
         #print (float(op1)/(float(op2)))
-print(stack)
+print(stack[0])
