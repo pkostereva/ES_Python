@@ -12,9 +12,6 @@ def click():
     else:
         a = 'Неверно!'
     label.config(text = a)
-    print(e)
-    print(A[e])
-    print(entry)
 
 frame = tkinter.Frame(window)
 frame.pack()
