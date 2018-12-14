@@ -3,7 +3,7 @@ a = s.find('я')
 print('Индекс буквы я', a)
 b = s.count('у')
 print('Буква у встречается',b, 'раза')
-if s.isalpha():
+if not s.isalpha():
     print(s.upper())
 if not s.isupper():
     print(s.upper())
