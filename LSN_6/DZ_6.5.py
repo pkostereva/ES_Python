@@ -5,13 +5,13 @@ for i in range(3):
     if a == 'Выход':
         break
     else:
-        if a.isnumeric:
+        if a.isnumeric():
             if int(a) == b:
                 print('Победа!')
                 break
-            elif int(a) > b: 
-                print('Загаданное число больше') 
             elif int(a) < b: 
+                print('Загаданное число больше') 
+            elif int(a) > b: 
                 print('Загаданное число меньше')
         else:
             print('Некорректный ввод')
