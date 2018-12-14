@@ -10,6 +10,8 @@ while True:
         kat = str(input('Введите категорию к задаче: '))
         time = str(input('Добавьте время к задаче: '))
         task.append([zad, kat, time])
+        print(task)
+        
     elif n == 2:
         for i in range(len(task)):
             print(f'Задача: {task[i][0]} \nКатегория: {task[i][1]} \nВремя: {task[i][2]}')

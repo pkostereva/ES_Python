@@ -6,7 +6,5 @@ while a != 'Стоп':
     if a.isnumeric():
         s = s + int(a)
     elif a:
-        break
-    else:
         print('Повторите ввод ')
 print(s)
