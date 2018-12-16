@@ -1,10 +1,10 @@
 from pprint import pprint
 import json
-'''
+print('''
 1. Добавить задачу.
 2. Вывести список задач.
 3. Выход.
-'''
+''')
 n=0
 while True:
     n=input('Выберете пункт: ')
@@ -14,6 +14,7 @@ while True:
             a=input('Задача: ')
             b=input('Категория: ')
             c=input('Время: ')
+            print('\nЗадача добавлена!\n')
             with open('task.json', 'a') as file:
                 file.write(f'Задача: {a} Категория:{b} Время: {c}'+'\n')
                 file.close()
